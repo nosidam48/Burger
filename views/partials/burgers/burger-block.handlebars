@@ -1,0 +1,9 @@
+<li>
+	<h4 id="burgerName" class="h5">{{burger_name}}</h4>
+
+	<button id="btn" class="change-eat brown waves-effect waves-light btn-small" data-id="{{id}}" data-neweat="{{devoured}}">
+		{{#if devoured}}TIME TO CONSUME!{{else}}REORDER!{{/if}}
+	</button>
+
+	<button id="btn" class="delete-burger red waves-effect waves-light btn-small" data-id="{{this.id}}">DELETE!</button>
+</li>
