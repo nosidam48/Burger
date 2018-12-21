@@ -1,6 +1,7 @@
 #show{
     display:inline;
     margin-left:8px;
+    height:50%;
 }
         
 body {
@@ -39,4 +40,21 @@ h4 {
     background: -webkit-linear-gradient(red, yellow, green);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#mainDiv {
+    border: 3px rgba(255, 255, 255, 0.5) solid;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 0px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 30px;
+}
+
+#burgerRow {
+    bottom: 20px;
+    position: relative;
 }
