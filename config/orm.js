@@ -89,9 +89,13 @@ var orm = {
       cb(result);
     });
 },
+// A function to delete a burger from the database
   delete: function(table, condition, cb) {
+    // delete from the table variable
     var queryString = "DELETE FROM " + table;
+    // where
     queryString += " WHERE ";
+    // the condition passed in
     queryString += condition;
 
     connection.query(queryString, function(err, result) {

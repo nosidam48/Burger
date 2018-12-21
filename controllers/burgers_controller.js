@@ -34,7 +34,7 @@ router.get("/", function(req, res) {
     console.log(req.body.burger_name);
     burger.update({
       devoured: req.body.devoured
-      
+    
       
     }, condition, function(result) {
       
