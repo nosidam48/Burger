@@ -1,7 +1,7 @@
 CREATE DATABASE burgers_db;
 USE burgers_db;
 
--- Created the table "schools" 
+-- Created the table "burgers" 
 CREATE TABLE burgers
 (
   id INT AUTO_INCREMENT NOT NULL,
