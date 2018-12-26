@@ -27,7 +27,7 @@ router.get("/", function(req, res) {
       res.json({ id: result.insertId });
     });
   });
-  
+  // A route for changing the status of a burger by its corresponding ID
   router.put("/api/burgers/:id", function(req, res) {
     var condition = "id = " + req.params.id;
   
@@ -48,6 +48,7 @@ router.get("/", function(req, res) {
     });
   });
   
+  // A route for deleting the burgers
   router.delete("/api/burgers/:id", function(req, res) {
     var condition = "id = " + req.params.id;
   
